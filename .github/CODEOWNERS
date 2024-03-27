@@ -1,6 +1,0 @@
-.github/*     @clouddrove/approvers
-
-*     @clouddrove/clouddrovians @clouddrove/approvers
-
-.github/mergify.yml @clouddrove/admins
-.github/CODEOWNERS  @clouddrove/admins

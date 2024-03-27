@@ -1,6 +1,3 @@
-// Managed By : CloudDrove
-// Description : This Terratest is used to test the Terraform VPC module.
-// Copyright @ CloudDrove. All Right Reserved.
 package test
 
 import (
@@ -28,6 +25,6 @@ func Test(t *testing.T) {
 	Tags := terraform.OutputMap(t, terraformOptions, "tags")
 
 	// Check that we get back the outputs that we expect
-	assert.Equal(t, "test-clouddrove-service_principal", Tags["Name"])
+	assert.Equal(t, "test-slovink-service_principal", Tags["Name"])
 	assert.Contains(t, Id, "/subscriptions")
 }
