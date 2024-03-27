@@ -56,7 +56,6 @@ variable "alternative_names" {
   description = "A set of alternative names, used to retrieve service principals by subscription, identify resource group and full resource ids for managed identities."
   default     = []
 }
-
 variable "description" {
   type        = string
   description = "A description of the service principal provided for internal end-users."
