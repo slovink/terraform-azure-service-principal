@@ -164,7 +164,7 @@ You need to run the following command in the testing folder:
 ```
 
 # Examples
-For detailed examples on how to use this module, please refer to the [example](https://github.com/slovink/terraform-azure-service-principal/blob/master/_example) directory within this repository.
+For detailed examples on how to use this module, please refer to the [example](https://github.com/slovink/terraform-azure-service-principal/blob/master/_examples) directory within this repository.
 
 # License
 This Terraform module is provided under the **MIT** License. Please see the [LICENSE](https://github.com/slovink/terraform-azure-service-principal/blob/master/LICENSE) file for more details.
